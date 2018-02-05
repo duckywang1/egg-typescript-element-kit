@@ -43,8 +43,6 @@
   "devDependencies": {
     "autod-egg": "^1.0.0",
     "autoprefixer": "^7.1.4",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
@@ -53,7 +51,7 @@
     "babel-preset-env": "^1.6.0",
     "cross-env": "^5.0.0",
     "cz-conventional-changelog": "^2.1.0",
-    "directory-named-webpack-plugin": "^2.2.3",
+    "easywebpack": "next",
     "easywebpack-cli": "^3.6.0",
     "easywebpack-vue": "^3.6.0",
     "egg-logview": "^1.0.0",
@@ -63,18 +61,14 @@
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "node-sass": "^4.5.3",
-    "postcss-loader": "^2.0.6",
-    "progress-bar-webpack-plugin": "^1.10.0",
     "sass-loader": "^6.0.6",
-    "service-worker-precache-webpack-plugin": "^0.0.1",
     "ts-loader": "^3.3.1",
     "tslint": "^5.9.1",
     "tslint-loader": "^3.5.3",
     "typescript": "^2.6.2",
     "uglifyjs-webpack-plugin": "^1.1.2",
     "vconsole": "^3.0.0",
-    "vue-template-compiler": "^2.4.4",
-    "webpack-manifest-resource-plugin": "^2.0.2"
+    "vue-template-compiler": "^2.4.4"
   },
   "engines": {
     "node": ">=8.0.0"

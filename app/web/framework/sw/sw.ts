@@ -8,8 +8,9 @@ class FrameServiceWorker {
   private options: any;
 
   constructor(options: any) {
+    const t = Date.now();
     this.options = Object.assign({}, {
-      manifestUrl: '/public/sw-manifest.json'
+      manifestUrl: '/public/sw-manifest.json?t=' + t
     }, options);
   }
 

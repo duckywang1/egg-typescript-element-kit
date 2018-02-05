@@ -68,7 +68,7 @@
 
         import('sw').then(sw =>{
           const serviceWorker = sw.default;
-          serviceWorker.register('index');
+          serviceWorker.register('service-worker.js');
         });
       }
     },

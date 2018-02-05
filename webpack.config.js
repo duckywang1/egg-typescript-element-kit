@@ -34,12 +34,8 @@ module.exports = {
     typescript: true
   },
   plugins: {
-    serviceWorker: {
-      type: 'client',
-      name: new ServiceWorkerWebpackPlugin({
-        strategy: 'multiple',
-        manifest: 'config/manifest.json',
-      })
+    serviceworker: {
+      manifest: 'config/manifest.json'
     }
   },
   done() {

@@ -65,10 +65,8 @@
         }
       },
       registerServiceWorker(){
-
-        import('sw').then(sw =>{
-          const serviceWorker = sw.default;
-          serviceWorker.register('service-worker.js');
+        import('service-worker-register').then(sw =>{
+          sw.default.register('service-worker.js');
         });
       }
     },

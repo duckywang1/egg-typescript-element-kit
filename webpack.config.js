@@ -17,7 +17,6 @@ module.exports = {
       server: 'app/web/framework/vue/entry/server-loader.ts',
     }
   },
-
   alias: {
     sw: 'app/web/framework/sw/sw.ts',
     server: 'app/web/framework/vue/entry/server.ts',

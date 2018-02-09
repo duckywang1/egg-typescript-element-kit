@@ -30,7 +30,7 @@
     "lowdb": "^1.0.0",
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.17.1",
-    "service-worker-register": "^1.0.0",
+    "service-worker-register": "^1.1.0",
     "showdown": "^1.8.6",
     "simplemde": "^1.11.2",
     "vue": "^2.5.0",
@@ -63,13 +63,15 @@
     "less-loader": "^4.0.5",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+    "stats-webpack-plugin": "^0.6.2",
     "ts-loader": "^3.3.1",
     "tslint": "^5.9.1",
     "tslint-loader": "^3.5.3",
     "typescript": "^2.6.2",
     "uglifyjs-webpack-plugin": "^1.1.2",
     "vconsole": "^3.0.0",
-    "vue-template-compiler": "^2.4.4"
+    "vue-template-compiler": "^2.4.4",
+    "webpack-bundle-analyzer": "^2.10.0"
   },
   "engines": {
     "node": ">=8.0.0"
